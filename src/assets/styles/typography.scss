@@ -1,0 +1,239 @@
+
+$primary-font: 'Arial';
+
+@mixin font-h1-semibold() {
+  font-family   : $primary-font;
+  font-size     : 32px;
+  font-weight   : 600;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.44;
+  letter-spacing: normal;
+};
+
+@mixin font-h2-regular() {
+  font-family   : $primary-font;
+  font-size     : 24px;
+  font-weight   : normal;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+@mixin font-h2-semibold() {
+  font-family   : $primary-font;
+  font-size     : 24px;
+  font-weight   : 600;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+@mixin font-h3-regular() {
+  font-family   : $primary-font;
+  font-size     : 20px;
+  font-weight   : normal;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+@mixin font-h3-semibold() {
+  font-family   : $primary-font;
+  font-size     : 20px;
+  font-weight   : 600;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+@mixin font-h4-semibold() {
+  font-family   : $primary-font;
+  font-size     : 16px;
+  font-weight   : 600;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+@mixin font-h5-semibold() {
+  font-family   : $primary-font;
+  font-size     : 14px;
+  font-weight   : 600;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+/** LABELS **/
+@mixin font-label-large-regular() {
+  font-family   : $primary-font;
+  font-size     : 20px;
+  font-weight   : normal;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : normal;
+  letter-spacing: normal;
+};
+
+@mixin font-label-medium-light() {
+  font-family   : $primary-font;
+  font-size     : 16px;
+  font-weight   : 300;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : normal;
+  letter-spacing: normal;
+};
+
+@mixin font-label-medium-regular() {
+  font-family   : $primary-font;
+  font-size     : 16px;
+  font-weight   : normal;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : normal;
+  letter-spacing: normal;
+};
+
+@mixin font-label-small-regular() {
+  font-family   : $primary-font;
+  font-size     : 12px;
+  font-weight   : normal;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+@mixin font-label-small-semibold() {
+  font-family   : $primary-font;
+  font-size     : 12px;
+  font-weight   : 600;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+@mixin font-label-small-uppercase-semibold() {
+  font-family   : $primary-font;
+  font-size     : 12px;
+  font-weight   : 600;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+};
+
+@mixin font-label-small-uppercase-bold() {
+  font-family   : $primary-font;
+  font-size     : 12px;
+  font-weight   : bold;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+};
+
+@mixin font-label-xsmall-light() {
+  font-family   : $primary-font;
+  font-size     : 10px;
+  font-weight   : 300;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+@mixin font-label-xsmall-regular() {
+  font-family   : $primary-font;
+  font-size     : 10px;
+  font-weight   : normal;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+@mixin font-label-xsmall-uppercase-regular() {
+  font-family   : $primary-font;
+  font-size     : 10px;
+  font-weight   : normal;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+};
+
+@mixin font-label-xsmall-uppercase-semibold() {
+  font-family   : $primary-font;
+  font-size     : 10px;
+  font-weight   : 600;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+};
+
+@mixin font-label-xsmall-bold() {
+  font-family   : $primary-font;
+  font-size     : 10px;
+  font-weight   : bold;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+/** SPANS **/
+@mixin font-span-regular() {
+  font-family   : $primary-font;
+  font-size     : 14px;
+  font-weight   : normal;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : normal;
+  letter-spacing: normal;
+};
+
+@mixin font-span-semibold() {
+  font-family   : $primary-font;
+  font-size     : 14px;
+  font-weight   : 600;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : normal;
+  letter-spacing: normal;
+};
+
+/** PARAGRAPHS **/
+@mixin font-paragraph-regular() {
+  font-family   : $primary-font;
+  font-size     : 14px;
+  font-weight   : normal;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.5;
+  letter-spacing: normal;
+};
+
+@mixin font-paragraph-light() {
+  font-family   : $primary-font;
+  font-size     : 14px;
+  font-weight   : 300;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.29;
+  letter-spacing: normal;
+};

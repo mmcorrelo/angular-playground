@@ -1,0 +1,19 @@
+$header-height: 64px;
+
+:host {
+
+  .app-container {
+    display       : flex;
+    flex-direction: column;
+  }
+
+  .app-header {
+    height: $header-height;
+  }
+
+  .app-content {
+    background-color: blue;
+    overflow-y      : auto;
+    height          : calc(100vh - #{$header-height});
+  }
+}

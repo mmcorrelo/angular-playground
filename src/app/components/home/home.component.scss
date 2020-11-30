@@ -1,0 +1,43 @@
+@use 'utils'as Utils;
+@use 'typography'as Typography;
+@use 'cards'with ($background-color: white,
+  $border: black);
+
+$margin-top: 10px;
+
+:host {
+  .home-container {
+    width: 100%;
+
+    margin: {
+      top   : Utils.space(2);
+      bottom: Utils.space(2);
+    }
+
+    .loading-container {
+      display         : flex;
+      justify-content : center;
+      align-items     : center;
+      width           : 100%;
+      height          : 100px;
+      margin-top      : 64px;
+      background-color: red;
+
+      @include Typography.font-label-small-uppercase-bold();
+    }
+
+    .product-card {
+      @include cards.container;
+
+      mat-card-actions {
+        display        : flex;
+        flex-direction : row;
+        justify-content: flex-end;
+      }
+
+      &:not(:first-of-type) {
+        margin-top: Utils.space(2);
+      }
+    }
+  }
+}

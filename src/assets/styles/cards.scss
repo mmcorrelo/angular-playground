@@ -1,0 +1,16 @@
+@use './utils' as Utils;
+
+$background-color: white !default;
+$border: black !default;
+$color: black !default;
+
+@mixin container {
+  background-color: $background-color;
+  border: 1px solid $border;
+  color: $color;
+
+  margin: {
+    left: Utils.space(2);
+    right: Utils.space(2);
+  }
+}
