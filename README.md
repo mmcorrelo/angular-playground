@@ -1,4 +1,34 @@
-# Ngrx Learning
+# Learning Angular 10 | NgRx & RxJS | SCSS/SASS
+
+The primary purpose of this project is to learn about angular 10 and reactive programming using NgRx and RxJS. 
+The main concepts touched here are:
+
+### Angular
+- Components [X]
+- Directives []
+- Services [X]
+- Routing [X]
+- Lazy Loading []
+#### NgRx & RxJS
+- Actions [X]
+- Reducers [X]
+- Selector [X]
+- Effects [X]
+- EntityAdapter []
+- RouterStore []
+- EntityData []
+- NgRx Component []
+
+#### SCSS/SASS
+- Modules [X]
+- Imports [X]
+- Extensions []
+- Mixins [X]
+- Functions [X]
+
+#### Other
+- Angular Material [X]
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
 
