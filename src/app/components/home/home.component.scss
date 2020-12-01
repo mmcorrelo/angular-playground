@@ -1,13 +1,21 @@
-@use 'utils'as Utils;
-@use 'typography'as Typography;
-@use 'cards'with ($background-color: white,
-  $border: black);
+@use 'utils' as Utils;
+@use 'typography' as Typography;
+@use 'cards' with (
+  $background-color: white,
+  $border: black
+);
 
 $margin-top: 10px;
+$max-width : 300px;
 
 :host {
   .home-container {
     width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
     margin: {
       top   : Utils.space(2);
@@ -29,14 +37,26 @@ $margin-top: 10px;
     .product-card {
       @include cards.container;
 
+      margin-top: Utils.space(2);
+      max-width : $max-width;
+      width: 33%;
+
       mat-card-actions {
         display        : flex;
-        flex-direction : row;
+        flex-direction : column;
         justify-content: flex-end;
       }
+    }
 
-      &:not(:first-of-type) {
-        margin-top: Utils.space(2);
+    button.add-button {
+      @include cards.container;
+
+      width: calc(100% - #{Utils.space(4)});
+
+      margin: {
+        top  : Utils.space(4);
+        left : Utils.space(2);
+        right: Utils.space(2);
       }
     }
   }

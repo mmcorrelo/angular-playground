@@ -4,10 +4,19 @@ import { IAppState } from './states/app.state';
 import { environment } from '../../environments/environment';
 import { productsReducer } from './reducers/product.reducer';
 import { usersReducer } from './reducers/users.reducer';
+import { UsersEffects } from './effects/users.effect';
 
-export const reducers: ActionReducerMap<IAppState> = {
+const reducers: ActionReducerMap<IAppState> = {
   products: productsReducer,
   users: usersReducer
 };
 
-export const metaReducers: MetaReducer<IAppState>[] = !environment.production ? [] : [];
+const effects = [UsersEffects];
+const metaReducers: MetaReducer<IAppState>[] = !environment.production ? [] : [];
+
+export {
+  reducers,
+  effects,
+  metaReducers
+};
+
