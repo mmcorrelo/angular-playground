@@ -1,4 +1,4 @@
-# Learning Angular 10 | NgRx & RxJS | SCSS/SASS
+# Learning Angular 10 | NgRx & RxJS | SCSS/SASS | Unit Tests | E2E Tests
 
 The primary purpose of this project is to learn about angular 10 and reactive programming using NgRx and RxJS. 
 The main concepts touched here are:
@@ -25,6 +25,22 @@ The main concepts touched here are:
 - Extensions []
 - Mixins [X]
 - Functions [X]
+
+#### Typescript
+- Classes [X]
+- Interfaces [X]
+- Enums [X]
+
+#### Unit Tests
+- Isolated []
+- Shallow []
+- Integration []
+
+#### Mock Tests
+- Mock Tests []
+
+#### E2E Tests
+- E2E Tests []
 
 #### Other
 - Angular Material [X]
